@@ -1,0 +1,107 @@
+.card {
+  background: var(--white);
+  border: 0.5px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.table th {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--gray-400);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  padding: 11px 14px;
+  text-align: left;
+  background: var(--gray-50);
+  border-bottom: 0.5px solid var(--gray-200);
+}
+.table td {
+  font-size: 13px;
+  color: var(--gray-900);
+  padding: 11px 14px;
+  border-bottom: 0.5px solid var(--gray-100);
+  vertical-align: middle;
+}
+.table tfoot td {
+  background: var(--purple-50);
+  font-size: 12px;
+  font-weight: 600;
+  border-top: 1px solid var(--purple-100);
+  border-bottom: none;
+  padding: 11px 14px;
+}
+.table tbody tr:last-child td { border-bottom: none; }
+.table tbody tr:hover { background: var(--gray-50); }
+
+.center { text-align: center !important; }
+.right  { text-align: right !important; }
+
+.nameCell { font-weight: 500; }
+.branch {
+  display: inline-block;
+  background: var(--purple-50);
+  color: var(--purple-600);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 9px;
+  border-radius: 20px;
+}
+.pctWrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.pctBar {
+  width: 80px;
+  height: 6px;
+  background: var(--purple-50);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.pctFill {
+  height: 100%;
+  background: var(--purple-400);
+  border-radius: 3px;
+  transition: width .4s ease;
+}
+.pctVal {
+  font-size: 12px;
+  min-width: 38px;
+  color: var(--gray-700);
+}
+.commVal {
+  font-weight: 600;
+  color: var(--purple-800);
+  font-size: 14px;
+}
+.totalComm {
+  color: var(--purple-800);
+  font-size: 14px;
+}
+.footLabel { color: var(--purple-800); }
+
+.btnPdf {
+  padding: 5px 10px;
+  background: var(--purple-50);
+  color: var(--purple-600);
+  border: 0.5px solid var(--purple-100);
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+  transition: all .15s;
+  white-space: nowrap;
+}
+.btnPdf:hover {
+  background: var(--purple-400);
+  color: #fff;
+  border-color: var(--purple-400);
+}

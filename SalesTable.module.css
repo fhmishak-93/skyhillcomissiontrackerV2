@@ -1,0 +1,133 @@
+.card {
+  background: var(--white);
+  border: 0.5px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.table th {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--gray-400);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  padding: 11px 14px;
+  text-align: left;
+  background: var(--gray-50);
+  border-bottom: 0.5px solid var(--gray-200);
+  line-height: 1.4;
+}
+.table td {
+  font-size: 13px;
+  color: var(--gray-900);
+  padding: 10px 14px;
+  border-bottom: 0.5px solid var(--gray-100);
+  vertical-align: middle;
+}
+.table tfoot td {
+  background: var(--gray-50);
+  font-size: 12px;
+  font-weight: 600;
+  border-top: 1px solid var(--gray-200);
+  border-bottom: none;
+  padding: 10px 14px;
+}
+.table tbody tr:last-child td { border-bottom: none; }
+.table tbody tr:hover { background: var(--gray-50); }
+
+.center { text-align: center !important; }
+.right  { text-align: right !important; }
+
+.rate {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--purple-400);
+  text-transform: none;
+  letter-spacing: 0;
+}
+.nameCell { font-weight: 500; }
+.branch {
+  display: inline-block;
+  background: var(--purple-50);
+  color: var(--purple-600);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 9px;
+  border-radius: 20px;
+}
+.numInput {
+  width: 60px;
+  text-align: center;
+  padding: 5px 8px;
+  border: 0.5px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--white);
+  color: var(--gray-900);
+  transition: border-color .15s;
+}
+.numInput:focus {
+  outline: none;
+  border-color: var(--purple-400);
+}
+.poolVal {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--purple-600);
+}
+.poolTotal { color: var(--purple-800); }
+.totalLabel { color: var(--gray-400); font-size: 11px; letter-spacing: .05em; }
+
+.btnDel {
+  background: none;
+  border: 0.5px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  color: var(--gray-400);
+  font-size: 11px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .15s;
+}
+.btnDel:hover { background: #FCEBEB; border-color: #F09595; color: #A32D2D; }
+
+.addRow {
+  display: flex;
+  gap: 10px;
+  padding: 12px 14px;
+  border-top: 0.5px solid var(--gray-100);
+  background: var(--gray-50);
+}
+.addInput {
+  flex: 1;
+  padding: 8px 12px;
+  border: 0.5px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--white);
+  color: var(--gray-900);
+}
+.addInput:focus { outline: none; border-color: var(--purple-400); }
+.btnAdd {
+  padding: 8px 18px;
+  background: var(--purple-600);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+  transition: background .15s;
+}
+.btnAdd:hover { background: var(--purple-800); }

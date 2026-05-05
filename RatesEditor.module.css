@@ -1,0 +1,45 @@
+.wrap { margin-bottom: 24px; }
+.label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  color: var(--purple-100);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  padding: 0 2px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.name {
+  font-size: 11px;
+  color: rgba(255,255,255,.7);
+  flex: 1;
+}
+.inputWrap {
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 6px;
+  padding: 4px 8px;
+  gap: 3px;
+}
+.prefix {
+  font-size: 11px;
+  color: var(--purple-100);
+}
+.input {
+  width: 40px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  text-align: right;
+  outline: none;
+}
